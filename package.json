@@ -1,0 +1,17 @@
+{
+  "name": "scrapboxuserscripteditor",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "bun build ./src/index.ts --outfile=./dist.js",
+    "watch": "bun build --watch ./src/index.ts --outfile=./dist.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "biome": "^0.3.3",
+    "vitest": "^2.1.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
